@@ -36,7 +36,7 @@ Molecule-MCP connects molecule science releated tools to Claude AI through the M
 ```
 2. Install mcp and get the script
 ```bash
-pip install mcp 
+pip install mcp chatmol
 pip install git+https://github.com/ChatMol/gromacs_copilot.git # optional, for running gromacs_copilot
 which mcp
 ```
