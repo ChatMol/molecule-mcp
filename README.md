@@ -17,11 +17,18 @@ Molecule-MCP connects molecule science releated tools to Claude AI through the M
         "/path/to/molecule-mcp/pymol_server.py"
       ]
     },
-	"chimerax": {
+    "chimerax": {
       "command": "/path/to/mcp",
       "args": [
         "run",
-        "/path/to/molecule-mcp/chimerax_server.py"
+        "/path/to/molecule-mcp/ChimeraX_server.py"
+      ]
+    },
+    "gromacs_copilot": {
+      "command": "/path/to/mcp",
+      "args": [
+        "run",
+        "/path/to/molecule-mcp/mcp_server.py"
       ]
     }
   }
@@ -29,7 +36,8 @@ Molecule-MCP connects molecule science releated tools to Claude AI through the M
 ```
 2. Install mcp and get the script
 ```bash
-pip install mcp
+pip install mcp 
+pip install git+https://github.com/ChatMol/gromacs_copilot.git # optional, for running gromacs_copilot
 which mcp
 ```
 the path to mcp will be displayed. Copy this path for the next step and replace `/path/to/mcp` with the path to mcp.
