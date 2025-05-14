@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/chatmol-molecule-mcp-badge.png)](https://mseep.ai/app/chatmol-molecule-mcp)
+
 # Molecule-MCP
 **Molecule-MCP**: A model-context-protocol server for molecules.
 Molecule-MCP connects molecule science releated tools to Claude AI through the Model Context Protocol (MCP), allowing Claude to **directly interact with and control these tools and act as a co-scientist**. This integration enables prompt assisted molecule modeling.
